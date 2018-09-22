@@ -135,40 +135,13 @@ fieldset[disabled] .navbar-primary .btn-link:hover,
 fieldset[disabled] .navbar-primary .btn-link:focus {
   color: #ccc;
 }
-/*// Sidebar generals - white
-// --------------------------------------------------
-@base-color                  : #FFFFFF;
-@bg-sidebar             : @base-color;
-@bg-color-hover         : darken(@bg-sidebar, 2%);
-@bg-color-focus         : darken(@bg-sidebar, 10%);
-
-// Text item sidebar
-// --------------------------------------------------
-@text-item-color        : #8D8D8D;
-@text-item-active-color : #333B3F;
-@text-item-background   : @bg-sidebar;
-
-// Border color sidebar
-// --------------------------------------------------
-@border-color           : #E5EBEC;
-
-// Icon font-awesome sidebar
-// --------------------------------------------------
-@icon-color             : #E5EBEC;
-@icon-hover-color       : #707E85;
-@icon-active-color      : #333B3F;
-
-// User card sidebar
-// --------------------------------------------------
-@text-card-color-h1     : #0078BC;
-@text-card-color-h3     : #8d9498;*/
 #sidebar {
   font-weight: lighter;
-  background: #4F5467;
+  background: #FFFFFF;
   height: 100%;
   position: absolute;
   z-index: 1;
-  border-right: 1px solid #656B81;
+  border-right: 1px solid #E5EBEC;
 }
 #sidebar .nav-list {
   list-style: none outside none;
@@ -176,7 +149,7 @@ fieldset[disabled] .navbar-primary .btn-link:focus {
   padding: 0;
 }
 #sidebar .nav-list li {
-  border-bottom: 1px solid #656B81;
+  border-bottom: 1px solid #E5EBEC;
   display: block;
   margin: 0px;
   padding-left: 5px;
@@ -184,8 +157,8 @@ fieldset[disabled] .navbar-primary .btn-link:focus {
 }
 #sidebar .nav-list li a {
   padding: 0 16px 0 10px !important;
-  background: #4F5467;
-  color: #8D9498;
+  background: #FFFFFF;
+  color: #8D8D8D;
   display: block;
   font-size: 1em;
   height: 40px;
@@ -195,25 +168,25 @@ fieldset[disabled] .navbar-primary .btn-link:focus {
 }
 #sidebar .nav-list li a i.fa {
   font-size: 1.5em;
-  color: #8D8E84;
+  color: #E5EBEC;
   margin-right: 10px;
   width: 24px;
   text-align: center;
 }
 #sidebar .nav-list li a:hover {
-  background: #4b4f61;
+  background: #fafafa;
 }
 #sidebar .nav-list li a:hover i.fa {
-  color: #C7C9BC;
+  color: #707E85;
 }
 #sidebar .nav-list li.active > a {
-  background: #4b4f61;
-  color: #FFFFFF;
+  background: #fafafa;
+  color: #333B3F;
   font-size: 13px;
   font-weight: 400;
 }
 #sidebar .nav-list li.active > a i.fa {
-  color: #FFFFFF;
+  color: #333B3F;
   margin-right: 10px;
 }
 #sidebar .nav-list li.active > a:hover,
@@ -223,7 +196,7 @@ fieldset[disabled] .navbar-primary .btn-link:focus {
   font-weight: 600;
 }
 #sidebar .nav-list li:nth-child(1) {
-  border-top: 1px solid #656B81;
+  border-top: 1px solid #E5EBEC;
 }
 #sidebar section {
   margin: 10px 0;
@@ -251,12 +224,12 @@ fieldset[disabled] .navbar-primary .btn-link:focus {
   background: #E5EBEC;
 }
 #sidebar section #user-logged-data h1 {
-  color: #FFFFFF;
+  color: #0078BC;
   font-weight: 300;
   font-size: 18px;
 }
 #sidebar section #user-logged-data h3 {
-  color: #DDE3E6;
+  color: #8d9498;
   font-weight: lighter;
   font-size: 12px;
   margin-top: 0;

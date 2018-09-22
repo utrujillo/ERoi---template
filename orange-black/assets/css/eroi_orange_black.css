@@ -135,33 +135,6 @@ fieldset[disabled] .navbar-primary .btn-link:hover,
 fieldset[disabled] .navbar-primary .btn-link:focus {
   color: #ccc;
 }
-/*// Sidebar generals - white
-// --------------------------------------------------
-@base-color                  : #FFFFFF;
-@bg-sidebar             : @base-color;
-@bg-color-hover         : darken(@bg-sidebar, 2%);
-@bg-color-focus         : darken(@bg-sidebar, 10%);
-
-// Text item sidebar
-// --------------------------------------------------
-@text-item-color        : #8D8D8D;
-@text-item-active-color : #333B3F;
-@text-item-background   : @bg-sidebar;
-
-// Border color sidebar
-// --------------------------------------------------
-@border-color           : #E5EBEC;
-
-// Icon font-awesome sidebar
-// --------------------------------------------------
-@icon-color             : #E5EBEC;
-@icon-hover-color       : #707E85;
-@icon-active-color      : #333B3F;
-
-// User card sidebar
-// --------------------------------------------------
-@text-card-color-h1     : #0078BC;
-@text-card-color-h3     : #8d9498;*/
 #sidebar {
   font-weight: lighter;
   background: #4F5467;
