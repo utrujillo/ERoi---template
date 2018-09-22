@@ -1,6 +1,6 @@
 body,
 html {
-  background-image: url(assets/images/business.jpg);
+  background-image: url(/assets/images/business.jpg);
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: center top;
