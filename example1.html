@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ERoi - Template</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/eroi_primary_white.css" />
+</head>
+<body>
+  
+  <!--                Navbar                   -->
+  <nav class="navbar navbar-primary navbar-fixed-top" role="navigation">
+    <header>
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Navegacion</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="basicTemplate.html"><img src="assets/images/ERoi-logo.png" />&nbsp;</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"><i class="fa fa-tags"></i>&nbsp; Ventas</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i>&nbsp; Compras</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-usd"></i>&nbsp; Materiales</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-tasks"></i>&nbsp; Finanzas</a>
+            </li>
+            <li>
+              <a href="basicTemplate.html">
+                <i class="fa fa-inbox"></i>&nbsp; Inicio</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="index.html"><i class="fa fa-sign-out"></i>&nbsp; Cerrar Sesión</a>
+            </li>
+          </ul>
+
+          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </header>
+  </nav>
+  <!--                /Navbar                   -->
+
+  <div class="container-fluid">
+    <div class="row">
+    
+      <!--                Sidebar                  -->
+      <div id="sidebar" class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+        <section>
+          <div id="user-logged">
+            <img src="assets/images/user-mask.png" />
+            <div id="user-logged-status" class="logged"></div>
+          </div>
+          <div id="user-logged-data">
+            <h1>Juan Emilio Serna Gomez</h1>
+            <h3>[ Administrador ]</h3>
+          </div>
+        </section>
+        
+        <ul class="nav nav-list">
+          <li class="active"><a href="basicTemplate.html"><i class="fa fa-inbox"></i>Inicio</a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i>Pedidos</a></li>
+          <li><a href="#"><i class="fa fa-usd"></i>Cobros</a></li>
+          <li><a href="#"><i class="fa fa-users"></i>Clientes</a></li>
+          <li><a href="#"><i class="fa fa-vcard"></i>Empleados</a></li>
+          <li><a href="#"><i class="fa fa-file-text"></i>Reporte de Facturas</a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i>Devoluciones</a></li>
+          <li><a href="#"><i class="fa fa-briefcase"></i>Visualizar Pedidos</a></li>
+        </ul>
+      </div>
+      <!--                /Sidebar                  -->
+      
+      <!--             ContenidoPrincipal           -->
+      <div class="col-lg-9 col-lg-offset-3 col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4 col-xs-6 col-xs-offset-6">
+        <article id="main">
+          
+
+          <ol class="breadcrumb">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Ventas</a></li>
+            <li class="active">Ventas por Usuario</li>
+          </ol>
+
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Ventas de usuario</h3>
+            </div>
+            <div class="panel-body">
+              
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label class="col-lg-2 control-label">Buscar</label>
+                  <div class="col-lg-8">
+                    <input type="text" class="form-control">
+                  </div>
+                  <div class="col-lg-2">
+                    <button class="form-control btn btn-primary"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </form>
+
+              <div class="table-responsive">
+                <table class="table table-hover table-stripped table-bordered"> 
+                  <thead> 
+                    <tr> 
+                      <th>#</th> 
+                      <th>Compañia</th> 
+                      <th>Puntuación</th> 
+                      <th>%</th> 
+                      <th>Ciudad</th> 
+                      <th>Fecha</th> 
+                      <th>Opciones</th> 
+                    </tr> 
+                  </thead> 
+                  <tbody>
+                    <tr> 
+                      <td class="text-center">1</td>
+                      <td class="text-center">Gamesa</td>
+                      <td class="text-center">89</td>
+                      <td class="text-center">50%</td>
+                      <td>Acapulco de Juarez, Gro.</td>
+                      <td class="text-center">2018-09-21</td>
+                      <td class="text-center">
+                        <a href="#"><i class="fa fa-edit icon-primary"></i></a>
+                        <a href="#"><i class="fa fa-eye icon-warning"></i></a>
+                        <a href="#"><i class="fa fa-close icon-danger"></i></a>
+                      </td> 
+                    </tr> 
+                    <tr> 
+                      <td class="text-center">1</td>
+                      <td class="text-center">Marinela</td>
+                      <td class="text-center">94</td>
+                      <td class="text-center">78%</td>
+                      <td>Ejido del quemado, Gro</td>
+                      <td class="text-center">2018-09-03</td>
+                      <td class="text-center">
+                        <a href="#"><i class="fa fa-edit icon-primary"></i></a>
+                        <a href="#"><i class="fa fa-eye icon-warning"></i></a>
+                        <a href="#"><i class="fa fa-close icon-danger"></i></a>
+                      </td> 
+                    </tr> 
+                    <tr> 
+                      <td class="text-center">1</td>
+                      <td class="text-center">FEMSA SA. de CV.</td>
+                      <td class="text-center">78</td>
+                      <td class="text-center">34%</td>
+                      <td>Chilpancingo, Gro</td>
+                      <td class="text-center">2014-09-03</td>
+                      <td class="text-center">
+                        <a href="#"><i class="fa fa-edit icon-primary"></i></a>
+                        <a href="#"><i class="fa fa-eye icon-warning"></i></a>
+                        <a href="#"><i class="fa fa-close icon-danger"></i></a>
+                      </td> 
+                    </tr>
+                    <tr> 
+                      <td class="text-center">1</td>
+                      <td class="text-center">Gamesa</td>
+                      <td class="text-center">89</td>
+                      <td class="text-center">50%</td>
+                      <td>Acapulco de Juarez, Gro.</td>
+                      <td class="text-center">2018-09-21</td>
+                      <td class="text-center">
+                        <a href="#"><i class="fa fa-edit icon-primary"></i></a>
+                        <a href="#"><i class="fa fa-eye icon-warning"></i></a>
+                        <a href="#"><i class="fa fa-close icon-danger"></i></a>
+                      </td> 
+                    </tr> 
+                    <tr> 
+                      <td class="text-center">1</td>
+                      <td class="text-center">Marinela</td>
+                      <td class="text-center">94</td>
+                      <td class="text-center">78%</td>
+                      <td>Ejido del quemado, Gro</td>
+                      <td class="text-center">2018-09-03</td>
+                      <td class="text-center">
+                        <a href="#"><i class="fa fa-edit icon-primary"></i></a>
+                        <a href="#"><i class="fa fa-eye icon-warning"></i></a>
+                        <a href="#"><i class="fa fa-close icon-danger"></i></a>
+                      </td> 
+                    </tr> 
+                    <tr> 
+                      <td class="text-center">1</td>
+                      <td class="text-center">FEMSA SA. de CV.</td>
+                      <td class="text-center">78</td>
+                      <td class="text-center">34%</td>
+                      <td>Chilpancingo, Gro</td>
+                      <td class="text-center">2014-09-03</td>
+                      <td class="text-center">
+                        <a href="#"><i class="fa fa-edit icon-primary"></i></a>
+                        <a href="#"><i class="fa fa-eye icon-warning"></i></a>
+                        <a href="#"><i class="fa fa-close icon-danger"></i></a>
+                      </td> 
+                    </tr> 
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+          </div>
+
+        </article>
+      </div>
+      <!--             /ContenidoPrincipal           -->
+
+    </div>
+  </div>
+
+  <!--                Footer                -->
+  <footer class="navbar-fixed-bottom">
+    <div class="container-fluid">
+      <div class="text-center">
+        Todos los derechos reservados <i class="fa fa-copyright"></i> 2018 E-ROI
+      </div>
+    </div>
+  </footer>
+  <!--                Footer                -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
