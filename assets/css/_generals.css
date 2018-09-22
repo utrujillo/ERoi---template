@@ -1,0 +1,16 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 25px;
+}
+body {
+  margin-bottom: 60px;
+}
+body article#main {
+  padding: 10px;
+  min-height: 800px;
+}

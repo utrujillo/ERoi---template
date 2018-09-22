@@ -5,7 +5,7 @@
   <title>ERoi - Template</title>
   <link rel="stylesheet" href="assets/css/bootstrap.css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="assets/css/eroi.css" />
+  <link rel="stylesheet" href="assets/css/eroi_primary_black.css" />
 </head>
 <body>
   
@@ -27,15 +27,29 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
+            <li>
+              <a href="#"><i class="fa fa-tags"></i>&nbsp; Ventas</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-shopping-cart"></i>&nbsp; Compras</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-usd"></i>&nbsp; Materiales</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-tasks"></i>&nbsp; Finanzas</a>
+            </li>
+            <li>
               <a href="basicTemplate.html">
-                <i class="fa fa-inbox"></i>&nbsp; Inicio
+                <i class="fa fa-inbox"></i>&nbsp; Inicio</span>
               </a>
             </li>
             <li class="active">
-              <a href="#"><i class="fa fa-sign-out"></i>&nbsp; Cerrar Sesión</a>
+              <a href="index.html"><i class="fa fa-sign-out"></i>&nbsp; Cerrar Sesión</a>
             </li>
           </ul>
+
+          
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </header>
@@ -49,17 +63,17 @@
       <div id="sidebar" class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
         <section>
           <div id="user-logged">
-            <img src="/assets/images/user-mask.png" />
+            <img src="assets/images/user-mask.png" />
             <div id="user-logged-status" class="logged"></div>
           </div>
           <div id="user-logged-data">
             <h1>Juan Emilio Serna Gomez</h1>
-            <h3>[ Chambon ]</h3>
+            <h3>[ Administrador ]</h3>
           </div>
         </section>
         
         <ul class="nav nav-list">
-          <li class="active"><a href="/basicTemplate.html"><i class="fa fa-inbox"></i>Inicio</a></li>
+          <li class="active"><a href="basicTemplate.html"><i class="fa fa-inbox"></i>Inicio</a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i>Pedidos</a></li>
           <li><a href="#"><i class="fa fa-usd"></i>Cobros</a></li>
           <li><a href="#"><i class="fa fa-users"></i>Clientes</a></li>
@@ -70,35 +84,66 @@
         </ul>
       </div>
       <!--                /Sidebar                  -->
-
+      
       <!--             ContenidoPrincipal           -->
       <div class="col-lg-9 col-lg-offset-3 col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4 col-xs-6 col-xs-offset-6">
-        <article id="main">
-          
 
-          <!--           Alertas           -->
-          <div class="alert alert-success" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+        <!--           Panel           -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel Default</h3>
           </div>
-
-          <div class="alert alert-info" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+          <div class="panel-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia, commodi dolore, asperiores in 
           </div>
+        </div>
 
-          <div class="alert alert-warning" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel Primary</h3>
           </div>
-
-          <div class="alert alert-danger" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+          <div class="panel-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia, commodi dolore, asperiores in 
           </div>
-          <!--           /Alertas           -->
+        </div>
 
-        </article>
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel Success</h3>
+          </div>
+          <div class="panel-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia, commodi dolore, asperiores in 
+          </div>
+        </div>
+
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel Info</h3>
+          </div>
+          <div class="panel-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia, commodi dolore, asperiores in 
+          </div>
+        </div>
+
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel Warning</h3>
+          </div>
+          <div class="panel-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia, commodi dolore, asperiores in 
+          </div>
+        </div>
+
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel Danger</h3>
+          </div>
+          <div class="panel-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officia, commodi dolore, asperiores in 
+          </div>
+        </div>
+        <!--           /Panel           -->
+        
       </div>
       <!--             /ContenidoPrincipal           -->
 

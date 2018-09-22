@@ -1,0 +1,126 @@
+/*// Sidebar generals - darken
+// --------------------------------------------------
+@base-color             : #4F5467;
+@bg-sidebar             : @base-color;
+@bg-color-hover         : darken(@bg-sidebar, 2%);
+@bg-color-focus         : darken(@bg-sidebar, 10%);
+
+// Text item sidebar
+// --------------------------------------------------
+@text-item-color        : #8D9498;
+@text-item-active-color : #FFFFFF;
+@text-item-background   : @bg-sidebar;
+
+// Border color sidebar
+// --------------------------------------------------
+@border-color           : #656B81;
+
+// Icon font-awesome sidebar
+// --------------------------------------------------
+@icon-color             : #8D8E84;
+@icon-hover-color       : #C7C9BC;
+@icon-active-color      : #FFFFFF;
+
+// User card sidebar
+// --------------------------------------------------
+@text-card-color-h1     : #FFFFFF;
+@text-card-color-h3     : #DDE3E6;*/
+#sidebar {
+  font-weight: lighter;
+  background: #FFFFFF;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-right: 1px solid #E5EBEC;
+}
+#sidebar .nav-list {
+  list-style: none outside none;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+#sidebar .nav-list li {
+  border-bottom: 1px solid #E5EBEC;
+  display: block;
+  margin: 0px;
+  padding-left: 5px;
+  position: relative;
+}
+#sidebar .nav-list li a {
+  padding: 0 16px 0 10px !important;
+  background: #FFFFFF;
+  color: #8D8D8D;
+  display: block;
+  font-size: 1em;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-shadow: none !important;
+}
+#sidebar .nav-list li a i.fa {
+  font-size: 1.5em;
+  color: #E5EBEC;
+  margin-right: 10px;
+  width: 24px;
+  text-align: center;
+}
+#sidebar .nav-list li a:hover {
+  background: #fafafa;
+}
+#sidebar .nav-list li a:hover i.fa {
+  color: #707E85;
+}
+#sidebar .nav-list li.active > a {
+  background: #fafafa;
+  color: #333B3F;
+  font-size: 13px;
+  font-weight: 400;
+}
+#sidebar .nav-list li.active > a i.fa {
+  color: #333B3F;
+  margin-right: 10px;
+}
+#sidebar .nav-list li.active > a:hover,
+#sidebar .nav-list li.active > a:focus,
+#sidebar .nav-list li.active > a:active {
+  font-size: 13px;
+  font-weight: 600;
+}
+#sidebar .nav-list li:nth-child(1) {
+  border-top: 1px solid #E5EBEC;
+}
+#sidebar section {
+  margin: 10px 0;
+  text-align: center;
+}
+#sidebar section #user-logged {
+  width: 69px;
+  height: 69px;
+  position: relative;
+  margin: 0 auto;
+}
+#sidebar section #user-logged #user-logged-status {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 3px solid #FFFFFF;
+  top: 1px;
+  right: -6px;
+}
+#sidebar section #user-logged #user-logged-status.logged {
+  background: #2ECC71;
+}
+#sidebar section #user-logged #user-logged-status.logout {
+  background: #E5EBEC;
+}
+#sidebar section #user-logged-data h1 {
+  color: #0078BC;
+  font-weight: 300;
+  font-size: 18px;
+}
+#sidebar section #user-logged-data h3 {
+  color: #8d9498;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 0;
+}

@@ -5,7 +5,7 @@
   <title>ERoi - Template</title>
   <link rel="stylesheet" href="assets/css/bootstrap.css" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="assets/css/eroi.css" />
+  <link rel="stylesheet" href="assets/css/eroi_primary_black.css" />
 </head>
 <body>
   
@@ -27,15 +27,17 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
+            <li>
               <a href="basicTemplate.html">
-                <i class="fa fa-inbox"></i>&nbsp; Inicio
+                <i class="fa fa-inbox"></i>&nbsp; Inicio</span>
               </a>
             </li>
             <li class="active">
-              <a href="#"><i class="fa fa-sign-out"></i>&nbsp; Cerrar Sesión</a>
+              <a href="index.html"><i class="fa fa-sign-out"></i>&nbsp; Cerrar Sesión</a>
             </li>
           </ul>
+
+          
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </header>
@@ -49,17 +51,17 @@
       <div id="sidebar" class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
         <section>
           <div id="user-logged">
-            <img src="/assets/images/user-mask.png" />
+            <img src="assets/images/user-mask.png" />
             <div id="user-logged-status" class="logged"></div>
           </div>
           <div id="user-logged-data">
             <h1>Juan Emilio Serna Gomez</h1>
-            <h3>[ Chambon ]</h3>
+            <h3>[ Administrador ]</h3>
           </div>
         </section>
         
         <ul class="nav nav-list">
-          <li class="active"><a href="/basicTemplate.html"><i class="fa fa-inbox"></i>Inicio</a></li>
+          <li class="active"><a href="basicTemplate.html"><i class="fa fa-inbox"></i>Inicio</a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i>Pedidos</a></li>
           <li><a href="#"><i class="fa fa-usd"></i>Cobros</a></li>
           <li><a href="#"><i class="fa fa-users"></i>Clientes</a></li>
@@ -75,28 +77,52 @@
       <div class="col-lg-9 col-lg-offset-3 col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4 col-xs-6 col-xs-offset-6">
         <article id="main">
           
+          <!--             Botones             -->
+          <h4>Botones como hipervinculos</h4>
+          <a class="btn btn-default" href="#">Default</a>
+          <a class="btn btn-primary" href="#">Primary</a>
+          <a class="btn btn-success" href="#">Success</a>
+          <a class="btn btn-info" href="#">Info</a>
+          <a class="btn btn-warning" href="#">Warning</a>
+          <a class="btn btn-danger" href="#">Danger</a>
 
-          <!--           Alertas           -->
-          <div class="alert alert-success" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
-          </div>
+          <h4>Botones como botones</h4>
+          <button type="button" class="btn btn-default">Default</button>
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-danger">Danger</button>
 
-          <div class="alert alert-info" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
-          </div>
+          <h4>Botones tamaño grande</h4>
+          <a class="btn btn-default btn-lg" href="#">Default</a>
+          <a class="btn btn-primary btn-lg" href="#">Primary</a>
+          <a class="btn btn-success btn-lg" href="#">Success</a>
+          <a class="btn btn-info btn-lg" href="#">Info</a>
+          <a class="btn btn-warning btn-lg" href="#">Warning</a>
+          <a class="btn btn-danger btn-lg" href="#">Danger</a>
 
-          <div class="alert alert-warning" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
-          </div>
+          <h4>Botones tamaño pequeño</h4>
+          <a class="btn btn-default btn-sm" href="#">Default</a>
+          <a class="btn btn-primary btn-sm" href="#">Primary</a>
+          <a class="btn btn-success btn-sm" href="#">Success</a>
+          <a class="btn btn-info btn-sm" href="#">Info</a>
+          <a class="btn btn-warning btn-sm" href="#">Warning</a>
+          <a class="btn btn-danger btn-sm" href="#">Danger</a>
 
-          <div class="alert alert-danger" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
-          </div>
-          <!--           /Alertas           -->
+          <h4>Botones que abarca el maximo del tamaño del contenedor</h4>
+          <button type="button" class="btn btn-danger btn-block">Primary</button>
+
+          <h4>Botones con iconos de bootstrap</h4>
+          <a href="#" class="btn btn-primary">Musica <span class="glyphicon glyphicon-music"></span></a>
+          <a href="#" class="btn btn-danger">Home <span class="glyphicon glyphicon-home"></span></a>
+          <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-star"></span> Favorito</a>
+
+          <h4>Botones con iconos de font awesome</h4>
+          <a href="#" class="btn btn-default">Superpoder <i class="fa fa-superpowers"></i></a>
+          <a href="#" class="btn btn-info">Chip <i class="fa fa-microchip"></i></a>
+          <a href="#" class="btn btn-warning"><i class="fa fa-flask"></i> Formula</a>
+          <!--            /Botones             -->
 
         </article>
       </div>
