@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ERoi - Template</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/eroi_success_black.css" />
+</head>
+<body>
+  
+  <!--                Navbar                   -->
+  <nav class="navbar navbar-primary navbar-fixed-top" role="navigation">
+    <header>
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Navegacion</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="basicTemplate.html"><img src="assets/images/ERoi-logo.png" />&nbsp;</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="basicTemplate.html">
+                <i class="fa fa-inbox"></i>&nbsp; Inicio</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="index.html"><i class="fa fa-sign-out"></i>&nbsp; Cerrar Sesión</a>
+            </li>
+          </ul>
+
+          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </header>
+  </nav>
+  <!--                /Navbar                   -->
+
+  <div class="container-fluid">
+    <div class="row">
+    
+      <!--                Sidebar                  -->
+      <div id="sidebar" class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+        <section>
+          <div id="user-logged">
+            <img src="assets/images/user-mask.png" />
+            <div id="user-logged-status" class="logged"></div>
+          </div>
+          <div id="user-logged-data">
+            <h1>Juan Emilio Serna Gomez</h1>
+            <h3>[ Administrador ]</h3>
+          </div>
+        </section>
+        
+        <ul class="nav nav-list">
+          <li class="active"><a href="basicTemplate.html"><i class="fa fa-inbox"></i>Inicio</a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i>Pedidos</a></li>
+          <li><a href="#"><i class="fa fa-usd"></i>Cobros</a></li>
+          <li><a href="#"><i class="fa fa-users"></i>Clientes</a></li>
+          <li><a href="#"><i class="fa fa-vcard"></i>Empleados</a></li>
+          <li><a href="#"><i class="fa fa-file-text"></i>Reporte de Facturas</a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i>Devoluciones</a></li>
+          <li><a href="#"><i class="fa fa-briefcase"></i>Visualizar Pedidos</a></li>
+        </ul>
+      </div>
+      <!--                /Sidebar                  -->
+
+      <!--             ContenidoPrincipal           -->
+      <div class="col-lg-9 col-lg-offset-3 col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4 col-xs-6 col-xs-offset-6">
+        <article id="main">
+          
+          <!--             Botones             -->
+          <h4>Botones como hipervinculos</h4>
+          <a class="btn btn-default" href="#">Default</a>
+          <a class="btn btn-primary" href="#">Primary</a>
+          <a class="btn btn-success" href="#">Success</a>
+          <a class="btn btn-info" href="#">Info</a>
+          <a class="btn btn-warning" href="#">Warning</a>
+          <a class="btn btn-danger" href="#">Danger</a>
+
+          <h4>Botones como botones</h4>
+          <button type="button" class="btn btn-default">Default</button>
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+
+          <h4>Botones tamaño grande</h4>
+          <a class="btn btn-default btn-lg" href="#">Default</a>
+          <a class="btn btn-primary btn-lg" href="#">Primary</a>
+          <a class="btn btn-success btn-lg" href="#">Success</a>
+          <a class="btn btn-info btn-lg" href="#">Info</a>
+          <a class="btn btn-warning btn-lg" href="#">Warning</a>
+          <a class="btn btn-danger btn-lg" href="#">Danger</a>
+
+          <h4>Botones tamaño pequeño</h4>
+          <a class="btn btn-default btn-sm" href="#">Default</a>
+          <a class="btn btn-primary btn-sm" href="#">Primary</a>
+          <a class="btn btn-success btn-sm" href="#">Success</a>
+          <a class="btn btn-info btn-sm" href="#">Info</a>
+          <a class="btn btn-warning btn-sm" href="#">Warning</a>
+          <a class="btn btn-danger btn-sm" href="#">Danger</a>
+
+          <h4>Botones que abarca el maximo del tamaño del contenedor</h4>
+          <button type="button" class="btn btn-danger btn-block">Primary</button>
+
+          <h4>Botones con iconos de bootstrap</h4>
+          <a href="#" class="btn btn-primary">Musica <span class="glyphicon glyphicon-music"></span></a>
+          <a href="#" class="btn btn-danger">Home <span class="glyphicon glyphicon-home"></span></a>
+          <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-star"></span> Favorito</a>
+
+          <h4>Botones con iconos de font awesome</h4>
+          <a href="#" class="btn btn-default">Superpoder <i class="fa fa-superpowers"></i></a>
+          <a href="#" class="btn btn-info">Chip <i class="fa fa-microchip"></i></a>
+          <a href="#" class="btn btn-warning"><i class="fa fa-flask"></i> Formula</a>
+          <!--            /Botones             -->
+
+        </article>
+      </div>
+      <!--             /ContenidoPrincipal           -->
+
+    </div>
+  </div>
+
+  <!--                Footer                -->
+  <footer class="navbar-fixed-bottom">
+    <div class="container-fluid">
+      <div class="text-center">
+        Todos los derechos reservados <i class="fa fa-copyright"></i> 2018 E-ROI
+      </div>
+    </div>
+  </footer>
+  <!--                Footer                -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

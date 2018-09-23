@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ERoi - Template</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/eroi_success_black.css" />
+</head>
+<body>
+  
+  <!--                Navbar                   -->
+  <nav class="navbar navbar-primary navbar-fixed-top" role="navigation">
+    <header>
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Navegacion</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="basicTemplate.html"><img src="assets/images/ERoi-logo.png" />&nbsp;</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="basicTemplate.html">
+                <i class="fa fa-inbox"></i>&nbsp; Inicio</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="index.html"><i class="fa fa-sign-out"></i>&nbsp; Cerrar Sesión</a>
+            </li>
+          </ul>
+
+          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </header>
+  </nav>
+  <!--                /Navbar                   -->
+
+  <div class="container-fluid">
+    <div class="row">
+    
+      <!--                Sidebar                  -->
+      <div id="sidebar" class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+        <section>
+          <div id="user-logged">
+            <img src="assets/images/user-mask.png" />
+            <div id="user-logged-status" class="logged"></div>
+          </div>
+          <div id="user-logged-data">
+            <h1>Juan Emilio Serna Gomez</h1>
+            <h3>[ Chambon ]</h3>
+          </div>
+        </section>
+        
+        <ul class="nav nav-list">
+          <li class="active"><a href="basicTemplate.html"><i class="fa fa-inbox"></i>Inicio</a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i>Pedidos</a></li>
+          <li><a href="#"><i class="fa fa-usd"></i>Cobros</a></li>
+          <li><a href="#"><i class="fa fa-users"></i>Clientes</a></li>
+          <li><a href="#"><i class="fa fa-vcard"></i>Empleados</a></li>
+          <li><a href="#"><i class="fa fa-file-text"></i>Reporte de Facturas</a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i>Devoluciones</a></li>
+          <li><a href="#"><i class="fa fa-briefcase"></i>Visualizar Pedidos</a></li>
+        </ul>
+      </div>
+      <!--                /Sidebar                  -->
+
+      <!--             ContenidoPrincipal           -->
+      <div class="col-lg-9 col-lg-offset-3 col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4 col-xs-6 col-xs-offset-6">
+        <article id="main">
+          
+          <!--         Formulario           -->
+
+          <form class="form-inline">
+            <fieldset>
+              <legend>Formulario en una sola linea</legend>
+              <div class="form-group">
+                <label class="sr-only">Email address</label>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" >Password</label>
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-success">Sign in</button>
+            </fieldset>
+          </form>
+          <p></p>
+
+          <form>
+            <fieldset>
+            <legend>Radio botones y Checkbox customizados</legend>
+              <div class="form-group">
+                <label class="container-checkbox">Recuerdame
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container-checkbox">Cerrar todas las sesiones
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              
+              <div class="form-group">
+                <label class="container-radio">Si
+                  <input type="radio" name="radio">
+                  <span class="radio-btn"></span>
+                </label>
+
+                <label class="container-radio">No
+                  <input type="radio" name="radio">
+                  <span class="radio-btn"></span>
+                </label>
+              </div>
+            </fieldset>
+          </form>
+          <p></p>
+
+          <form class="form-horizontal">
+            <fieldset>
+            <legend>Formulario Horizontal</legend>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Compra</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="0.0">
+                </div>
+
+                <label class="col-sm-2 control-label">Pedido</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="">
+                </div>
+
+                <label class="col-sm-2 control-label">Tipo</label>
+                <div class="col-sm-2">
+                  <select class="form-control">
+                    <option value="0">- Seleccionar -</option>
+                    <option value="0">Opcion A</option>
+                    <option value="0">Opcion B</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Factura</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="No. Factura">
+                </div>
+
+                <label class="col-sm-2 control-label">Pedido</label>
+                <div class="col-sm-2">
+                  <select class="form-control">
+                    <option value="0">- Seleccionar -</option>
+                    <option value="0">Opcion A</option>
+                    <option value="0">Opcion B</option>
+                  </select>
+                </div>
+
+                <label class="col-sm-2 control-label">Proveedor</label>
+                <div class="col-sm-2">
+                  <select class="form-control">
+                    <option value="0">- Seleccionar -</option>
+                    <option value="0">Opcion A</option>
+                    <option value="0">Opcion B</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Fecha Inicio</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="YYYY-MM-DD">
+                </div>
+
+                <label class="col-sm-2 control-label">Fecha Termino</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="YYYY-MM-DD">
+                </div>
+
+                <label class="col-sm-2 control-label">Hora</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control" placeholder="HH:MM">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Subtotal</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control">
+                </div>
+
+                <label class="col-sm-2 control-label">Total</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control">
+                </div>
+
+                <label class="col-sm-2 control-label">Limite</label>
+                <div class="col-sm-2">
+                  <input type="text" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Estado</label>
+                <div class="col-sm-10">
+                  <select class="form-control">
+                    <option value="0">- Seleccionar -</option>
+                    <option value="0">Opcion A</option>
+                    <option value="0">Opcion B</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-danger">Sign in</button>
+                </div>
+              </div>
+
+            </fieldset>
+          </form>
+
+
+          <form>
+            <fieldset>
+            <legend>Formulario Vertical</legend>
+              <div class="form-group">
+                <label>Email address</label>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label>File input</label>
+                <input type="file">
+                <p class="help-block">Example block-level help text here.</p>
+              </div>
+              <div class="form-group">
+                <label>Description</label>
+                <textarea rows="3" class="form-control"></textarea>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </fieldset>
+          </form>
+
+
+          <!--        /Formulario           -->
+
+        </article>
+      </div>
+      <!--             /ContenidoPrincipal           -->
+
+    </div>
+  </div>
+
+  <!--                Footer                -->
+  <footer class="navbar-fixed-bottom">
+    <div class="container-fluid">
+      <div class="text-center">
+        Todos los derechos reservados <i class="fa fa-copyright"></i> 2018 E-ROI
+      </div>
+    </div>
+  </footer>
+  <!--                Footer                -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
