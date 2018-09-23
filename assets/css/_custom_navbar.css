@@ -1,6 +1,6 @@
 .navbar-primary {
-  background-color: #04C339;
-  border-color: #03a330;
+  background-color: #E74A25;
+  border-color: #d43b17;
   font-weight: lighter;
 }
 .navbar-primary .navbar-brand {
@@ -19,14 +19,14 @@
 }
 .navbar-primary .navbar-nav > li > a:hover,
 .navbar-primary .navbar-nav > li > a:focus {
-  color: #027823;
+  color: #ad3013;
   background-color: transparent;
 }
 .navbar-primary .navbar-nav > .active > a,
 .navbar-primary .navbar-nav > .active > a:hover,
 .navbar-primary .navbar-nav > .active > a:focus {
   color: #E3E3E3;
-  background-color: #03a330;
+  background-color: #d43b17;
 }
 .navbar-primary .navbar-nav > .disabled > a,
 .navbar-primary .navbar-nav > .disabled > a:hover,
@@ -46,12 +46,12 @@
 }
 .navbar-primary .navbar-collapse,
 .navbar-primary .navbar-form {
-  border-color: #03a330;
+  border-color: #d43b17;
 }
 .navbar-primary .navbar-nav > .open > a,
 .navbar-primary .navbar-nav > .open > a:hover,
 .navbar-primary .navbar-nav > .open > a:focus {
-  background-color: #03a330;
+  background-color: #d43b17;
   color: #E3E3E3;
 }
 @media (max-width: 767px) {
@@ -60,14 +60,14 @@
   }
   .navbar-primary .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-primary .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #027823;
+    color: #ad3013;
     background-color: transparent;
   }
   .navbar-primary .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-primary .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-primary .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #E3E3E3;
-    background-color: #03a330;
+    background-color: #d43b17;
   }
   .navbar-primary .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-primary .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -80,14 +80,14 @@
   color: #FFFFFF;
 }
 .navbar-primary .navbar-link:hover {
-  color: #027823;
+  color: #ad3013;
 }
 .navbar-primary .btn-link {
   color: #FFFFFF;
 }
 .navbar-primary .btn-link:hover,
 .navbar-primary .btn-link:focus {
-  color: #027823;
+  color: #ad3013;
 }
 .navbar-primary .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-primary .btn-link:hover,
