@@ -10,6 +10,8 @@
 }
 .panel-heading {
   padding: 15px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 .panel-heading > .dropdown .dropdown-toggle {
   color: inherit;
